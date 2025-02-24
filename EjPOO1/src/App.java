@@ -7,9 +7,9 @@ constructor vacío.
 luego informar mediante otro método el número de ISBN, el título, el autor del libro y el
 numero de páginas.
  */
-import Models.Libro;
+import Models.Libro; // Importar el package Models
 
-public class App {
+public class App { // Crear una clase llamada App
     public static void main(String[] args) throws Exception {
         // Crear un objeto Libro usando el constructor vacío
         Libro libro = new Libro(); // Crear un objeto Libro
@@ -19,5 +19,5 @@ public class App {
 
         // Llamar al método mostrarInformacion para mostrar los datos del libro
         libro.mostrarInformacion();
-    }
-}
+    } // Fin del método main
+} // Fin de la clase App
